@@ -8,7 +8,7 @@ function kilometerToMeter(kilometer){
         return meter;
     }
 }
-var givenKilometer = kilometerToMeter(38);
+var givenKilometer = kilometerToMeter(-1);
 console.log(givenKilometer);
 //-----------------Problem 1 end------------------------//
 
@@ -25,7 +25,7 @@ function budgetCalculator(watch,mobilePhone,laptop){
         return totalBudget;
     }
 }
-var budgetResult = budgetCalculator(1, 1, 1);
+var budgetResult = budgetCalculator(-1, 1, 1);
 console.log(budgetResult);
 //-----------------Problem 2 end------------------------//
 
@@ -33,7 +33,7 @@ console.log(budgetResult);
 function hotelCost(days){
     var hotelBill = 0;
     if(days<=0){
-        return "Please enter positive or greater than zero value.";
+        return "Please,enter positive or greater than zero value.";
     }
     if(days<=10){
         hotelBill = days * 100;
@@ -71,7 +71,7 @@ function megaFriend(names){
     }
     return largestName;     
 }
-var nameResult = megaFriend(["fariaAbid","kibria","zuhair","jannat","abid","shahanara"]);
+var nameResult = megaFriend(["fariaAbid","kibria","zuhair","jannat","abid","shahanara",""]);
 console.log(nameResult);
 //-----------------Problem 4 end------------------------//
 
