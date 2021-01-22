@@ -18,13 +18,43 @@ function budgetCalculator(watch,mobilePhone,laptop){
         return "Please,enter positive value";
     }
     else {
-        var watchCount = watch*50;
-        var mobilePhoneCount = mobilePhone*100;
-        var laptopCount = laptop*500;
-        var totalBudget = watchCount + mobilePhoneCount + laptopCount;
+        var watchBudget = watch*50;
+        var mobilePhoneBudget = mobilePhone*100;
+        var laptopBudget = laptop*500;
+        var totalBudget = watchBudget + mobilePhoneBudget + laptopBudget;
         return totalBudget;
     }
 }
 var budgetResult = budgetCalculator(1, 1, 1);
 console.log(budgetResult);
 //-----------------Problem 2 end------------------------//
+
+//-----------------Problem 3 start------------------------//
+//-----------------Problem 3 end------------------------//
+
+//-----------------Problem 4 start------------------------//
+function megaFriend(names){
+    var largestName = names[0];
+    for (var i = 1; i < names.length; i++) {
+        if (names[i] == "") {
+            return "Name cannot be empty string.";
+        }
+        var givenName = names[i];
+        if (largestName.length < givenName.length) {
+            largestName = givenName;
+        }
+    }
+    return largestName;     
+}
+var nameResult = megaFriend(["fariaAbid","kibria","zuhair","jannat","abid","shahanara"]);
+console.log(nameResult);
+//-----------------Problem 4 end------------------------//
+
+
+
+
+
+
+
+
+
