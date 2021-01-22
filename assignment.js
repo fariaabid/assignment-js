@@ -32,6 +32,9 @@ console.log(budgetResult);
 //-----------------Problem 3 start------------------------//
 function hotelCost(days){
     var hotelBill = 0;
+    if(days<=0){
+        return "Please enter positive or greater than zero value.";
+    }
     if(days<=10){
         hotelBill = days * 100;
     }
@@ -50,7 +53,7 @@ function hotelCost(days){
     }
     return hotelBill;
 }
-var myHotelBill = hotelCost(12);
+var myHotelBill = hotelCost(0);
 console.log(myHotelBill);
 //-----------------Problem 3 end------------------------//
 
