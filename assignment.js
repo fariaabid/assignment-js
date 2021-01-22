@@ -1,4 +1,8 @@
+// https://github.com/fariaabid/assignment-js
+
+
 //-----------------Problem 1 start------------------------//
+
 function kilometerToMeter(kilometer){
     if (kilometer < 0){
         return "Distance can not be negative.";
@@ -10,9 +14,11 @@ function kilometerToMeter(kilometer){
 }
 var givenKilometer = kilometerToMeter(-1);
 console.log(givenKilometer);
+
 //-----------------Problem 1 end------------------------//
 
 //-----------------Problem 2 start------------------------//
+
 function budgetCalculator(watch,mobilePhone,laptop){
     if (watch < 0 || mobilePhone < 0 || laptop < 0) {
         return "Please,enter positive value";
@@ -27,9 +33,11 @@ function budgetCalculator(watch,mobilePhone,laptop){
 }
 var budgetResult = budgetCalculator(-1, 1, 1);
 console.log(budgetResult);
+
 //-----------------Problem 2 end------------------------//
 
 //-----------------Problem 3 start------------------------//
+
 function hotelCost(days){
     var hotelBill = 0;
     if(days<=0){
@@ -55,9 +63,11 @@ function hotelCost(days){
 }
 var myHotelBill = hotelCost(0);
 console.log(myHotelBill);
+
 //-----------------Problem 3 end------------------------//
 
 //-----------------Problem 4 start------------------------//
+
 function megaFriend(names){
     var largestName = names[0];
     for (var i = 1; i < names.length; i++) {
@@ -73,6 +83,7 @@ function megaFriend(names){
 }
 var nameResult = megaFriend(["fariaAbid","kibria","zuhair","jannat","abid","shahanara",""]);
 console.log(nameResult);
+
 //-----------------Problem 4 end------------------------//
 
 
