@@ -12,8 +12,8 @@ function kilometerToMeter(kilometer){
         return meter;
     }
 }
-var givenKilometer = kilometerToMeter(-1);
-console.log(givenKilometer);
+// var givenKilometer = kilometerToMeter(-1);
+// console.log(givenKilometer);
 
 //-----------------Problem 1 end------------------------//
 
@@ -31,8 +31,8 @@ function budgetCalculator(watch,mobilePhone,laptop){
         return totalBudget;
     }
 }
-var budgetResult = budgetCalculator(-1, 1, 1);
-console.log(budgetResult);
+// var budgetResult = budgetCalculator(-1, 1, 1);
+// console.log(budgetResult);
 
 //-----------------Problem 2 end------------------------//
 
@@ -61,8 +61,8 @@ function hotelCost(days){
     }
     return hotelBill;
 }
-var myHotelBill = hotelCost(0);
-console.log(myHotelBill);
+// var myHotelBill = hotelCost(0);
+// console.log(myHotelBill);
 
 //-----------------Problem 3 end------------------------//
 
@@ -81,8 +81,8 @@ function megaFriend(names){
     }
     return largestName;     
 }
-var nameResult = megaFriend(["fariaAbid","kibria","zuhair","jannat","abid","shahanara",""]);
-console.log(nameResult);
+// var nameResult = megaFriend(["fariaAbid","kibria","zuhair","jannat","abid","shahanara",""]);
+// console.log(nameResult);
 
 //-----------------Problem 4 end------------------------//
 
